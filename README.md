@@ -140,10 +140,10 @@ systemctl status cron
 <img  alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/crontab.png" /><br>
 
 5. Log directory files:<br>
-<img  alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/backend_mern_stack.png" /><br>
+<img  alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/logs.png" /><br>
 
 6. Latest Commit details storing in a file (latest_commit.txt):<br>
-<img  src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/logs.png" /><br>
+<img  src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/commit.png" /><br>
 
 7. Deployment logs storing in a file (deploy.log):<br>
 <img  src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/deploy_logs_file.png" /><br>
