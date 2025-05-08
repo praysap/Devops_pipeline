@@ -143,7 +143,7 @@ systemctl status cron
 <img  alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/backend_mern_stack.png" /><br>
 
 6. Latest Commit details storing in a file (latest_commit.txt):<br>
-<img  src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/backend_mern_stack.png" /><br>
+<img  src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/logs.png" /><br>
 
 7. Deployment logs storing in a file (deploy.log):<br>
 <img  src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/deploy_logs_file.png" /><br>
@@ -153,7 +153,7 @@ systemctl status cron
 
 
 9. Commit History
-<img  src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/Commit_history.png" /><br>
+<img  src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/Commit_histroy.png" /><br>
 
 10. CI/CD Pipeline Final Output:
 <img  src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/output_Final.png" /><br>
