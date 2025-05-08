@@ -9,9 +9,9 @@ GITHUB_REPO = "praysap/Devops_pipeline"  # Change this
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Use a GitHub token with repo read access
 # GITHUB_TOKEN = ("GITHUB_TOKEN") #For ubuntu
 # Get the current user's home directory dynamically
-HOME_DIR = os.path.expanduser("~")
-LOCAL_COMMIT_FILE = f"{HOME_DIR}/Devops_CICD/log/latest_commit.txt"
-DEPLOY_SCRIPT = f"{HOME_DIR}/Devops_CICD/deploy.sh"
+HOME_DIR = "/var/www/html"
+LOCAL_COMMIT_FILE = f"{HOME_DIR}/log/latest_commit.txt"
+DEPLOY_SCRIPT = f"{HOME_DIR}/deploy.sh"
 
 def get_latest_commit():
     """Fetch the latest commit SHA from GitHub API."""

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Get the current user's home directory
-USER_HOME=$(eval echo ~$(whoami))
-PROJECT_DIR="$USER_HOME/Devops_CICD"
+USER_HOME="/var/www/html"
+PROJECT_DIR="$USER_HOME"
 REPO_DIR="$PROJECT_DIR/Devops_pipeline"
 LOG_FILE="$PROJECT_DIR/log/deploy.log"
 ASKPASS_SCRIPT="$USER_HOME/askpass.sh"
