@@ -128,32 +128,32 @@ systemctl status cron
 
 ## 🖼️ Validation Snapshots
 1. Project Repo directories and files:<br>
-<img width="499" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/project.png" /><br>
+<img width="499" alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/project.png" /><br>
 
 2. Github token setup in .env file:<br>
-<img width="611" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/directory.png" /><br>
+<img width="611" alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/directory.png" /><br>
 
 3. Nginx setup:<br>
-<img width="806" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/server_nginx.png" /><br>
+<img width="806" alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/server_nginx.png" /><br>
 
 4. Crontab setup:<br>
-<img width="851" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/crontab.png" /><br>
+<img width="851" alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/crontab.png" /><br>
 
 5. Log directory files:<br>
-<img width="562" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/backend_mern_stack.png" /><br>
+<img width="562" alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/backend_mern_stack.png" /><br>
 
 6. Latest Commit details storing in a file (latest_commit.txt):<br>
-<img width="629" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/backend_mern_stack.png" /><br>
+<img width="629" alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/backend_mern_stack.png" /><br>
 
 7. Deployment logs storing in a file (deploy.log):<br>
-<img width="521" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/deploy_logs_file.png" /><br>
+<img width="521" alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/deploy_logs_file.png" /><br>
 
 8. Checking commits to do the latest deployment on the server (checking_commits.log):<br>
-<img width="682" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/Check_New_commit.png" /><br>
-![image](https://github.com/praysap/TravelMemory/blob/main/Screenshot/Commit_history.png)<br>
+<img width="682" alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/Check_New_commit.png" /><br>
+![image](https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/Commit_history.png)<br>
 
 9. output File Index.html:
-<img width="682" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/output_Final.png" /><br>
+<img width="682" alt="image" src="https://github.com/praysap/Devops_pipeline/blob/main/Screenshot/output_Final.png" /><br>
 ---
 
 🙌 Contribution
