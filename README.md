@@ -1,4 +1,4 @@
-# 🚀 DevOps CI/CD Pipeline
+## 🚀 DevOps CI/CD Pipeline
 
 This project demonstrates a simple **CI/CD pipeline** that automatically pulls and deploys changes from a GitHub repository using **Python**, **Shell scripting**, and **cron jobs**, with `nginx` serving a static `index.html` page.
 
@@ -39,14 +39,13 @@ pipx ensurepath
 ```
 ---
 
-## Project Setup
+## ⚙️ Project Setup
 
 1. Set up your Github Token with GitHub.
 2. Clone the repository:
    ```bash
    cd /var/www/html/
    git clone <your_repo_url>
-   cd CI-CD_Pipeline_Tool
    ```
 3. Create a `log` directory:
    ```bash
@@ -64,7 +63,7 @@ pipx ensurepath
    ```
 ---
 
-## GitHub Token Setup
+## 🔐 GitHub Token Setup
 
 ### On Ubuntu:
 1. Install `python3-dotenv`:
@@ -75,7 +74,7 @@ pipx ensurepath
    ```python
    GITHUB_TOKEN = "your_github_token"
    ```
-3. Ensure `.env` is listed in `.gitignore`.
+3. ✅ Make sure .env is listed in .gitignore.
 
 ### On Windows:
 1. Install dotenv:
@@ -89,7 +88,7 @@ pipx ensurepath
 3. Ensure `.env` is listed in `.gitignore`.
 ---
 
-## Nginx Setup
+## 🌍 Nginx Setup
 
 1. Update Nginx configuration:
 
@@ -104,7 +103,7 @@ root var/www/html/Devops_pipeline/;
 ```
 
 
-## Cron Job Setup (Every 5 Minutes)
+## ⏰ Cron Job Setup (Every 5 Minutes)
 
 1. Edit crontab:
 
@@ -127,54 +126,36 @@ systemctl status cron
 ```
 ---
 
-## Askpass Script (Optional for Sudo Automation)
-
-1. Create an askpass script for secure sudo:
-
-```bash
-nano ~/askpass.sh
-```
-
-2. Add the following:
-
-```bash
-#!/bin/bash
-echo "your_sudo_password"
-```
-
-3. Make it executable:
-
-```bash
-chmod +x ~/askpass.sh
-```
----
-
-## Validation Snapshots
+## 🖼️ Validation Snapshots
 1. Project Repo directories and files:<br>
-<img width="499" alt="image" src="https://github.com/user-attachments/assets/0bd0fd5d-d139-4fa3-9081-39aff0f2f366" /><br>
+<img width="499" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/project.png" /><br>
 
 2. Github token setup in .env file:<br>
-<img width="611" alt="image" src="https://github.com/user-attachments/assets/4649dfbf-faef-4c39-9ade-da32af9acea6" /><br>
+<img width="611" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/directory.png" /><br>
 
 3. Nginx setup:<br>
-<img width="806" alt="image" src="https://github.com/user-attachments/assets/80215aa9-319f-44eb-9fd8-700f496b3a04" /><br>
+<img width="806" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/server_nginx.png" /><br>
 
 4. Crontab setup:<br>
-<img width="851" alt="image" src="https://github.com/user-attachments/assets/b7392a59-fb64-4fdc-92c0-03cd1509b5d3" /><br>
+<img width="851" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/crontab.png" /><br>
 
 5. Log directory files:<br>
-<img width="562" alt="image" src="https://github.com/user-attachments/assets/6cfa5eb1-de86-443f-9855-8867a7976215" /><br>
+<img width="562" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/backend_mern_stack.png" /><br>
 
 6. Latest Commit details storing in a file (latest_commit.txt):<br>
-<img width="629" alt="image" src="https://github.com/user-attachments/assets/62b3080c-4b35-4627-ab08-e6fd0775cf13" /><br>
+<img width="629" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/backend_mern_stack.png" /><br>
 
 7. Deployment logs storing in a file (deploy.log):<br>
-<img width="521" alt="image" src="https://github.com/user-attachments/assets/9693ef72-9d92-47f0-8691-e7f7f4b52fba" /><br>
+<img width="521" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/deploy_logs_file.png" /><br>
 
 8. Checking commits to do the latest deployment on the server (checking_commits.log):<br>
-<img width="682" alt="image" src="https://github.com/user-attachments/assets/085e0134-67ec-4c55-8c41-49d2a9d398c6" /><br>
-![image](https://github.com/user-attachments/assets/c65388cb-a74d-4026-bb16-5f2bd78e42c7)<br>
+<img width="682" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/Check_New_commit.png" /><br>
+![image](https://github.com/praysap/TravelMemory/blob/main/Screenshot/Commit_history.png)<br>
+
+9. output File Index.html:
+<img width="682" alt="image" src="https://github.com/praysap/TravelMemory/blob/main/Screenshot/output_Final.png" /><br>
 ---
 
-## 📄 License
+🙌 Contribution
+Feel free to raise issues or submit pull requests to improve the project. Contributions are always welcome!
 
